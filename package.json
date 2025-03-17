@@ -1,0 +1,12 @@
+{
+  "name": "not-yet-named-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
