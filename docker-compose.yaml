@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  server:
+    container_name: internal.server
+    build:
+      context: ./server
+      additional_contexts:
+        - parent=.
+    ports:
+      - '3001:3001'
+
+  client:
+    build:
+      context: ./client
+      additional_contexts:
+        - parent=.
+    ports:
+      - '5173:3000'
+    depends_on:
+      - server

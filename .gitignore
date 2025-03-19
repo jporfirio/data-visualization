@@ -3,3 +3,6 @@ dist/
 build/
 .next/
 .pnpm-store/
+
+# client specific stuff
+.react-router/

@@ -3,7 +3,7 @@ import { useLoaderData } from 'react-router';
 import * as d3 from 'd3';
 
 export async function loader() {
-  const response = await fetch('http://localhost:3000/data');
+  const response = await fetch('http://internal.server:3001/data');
   const { data } = await response.json();
 
   return data.map(([date, value]: [string, number]) => [new Date(date), value]);

@@ -12,8 +12,5 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2"
-  },
-  "devDependencies": {
-    "@flydotio/dockerfile": "^0.7.8"
   }
 }
