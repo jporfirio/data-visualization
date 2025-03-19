@@ -8,7 +8,3 @@ packages:
   - 'components/**'
   # exclude packages that are inside test directories
   - '!**/test/**'
-
-catalog:
-  react: ^19.0.0
-  react-dom: ^19.0.0
